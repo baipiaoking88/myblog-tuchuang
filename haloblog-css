@@ -1,0 +1,25 @@
+.copyright {
+  display: none!important;
+}
+.powered {
+  display: none!important;
+}
+#bottomDiv {
+  width: 90%;
+  height: 110%;
+  margin: auto;
+  position: relative;
+  bottom: 0;
+}
+.wl-power {
+  display: none !important;
+}
+.button { 
+  display: none;
+}
+.title.text-center {
+  display: none;
+} 
+.content.flex.flex-justify-content-center {
+  display: none;
+}
