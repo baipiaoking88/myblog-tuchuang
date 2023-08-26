@@ -14,3 +14,6 @@
 .wl-power {
   display: none !important;
 }
+.button { 
+  display: none;
+}
