@@ -3,6 +3,10 @@
   display: none !important;
 }
 
+/* 评论区精简 */
+.wl-reaction {
+  display: none !important;
+}
 .wl-power {
   display: none !important;
 }
