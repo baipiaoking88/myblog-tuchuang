@@ -1,0 +1,8 @@
+/* next主题隐藏底栏 */
+.relative.z-10.dark\:bg-gray-800.flex-shrink-0.justify-center.text-center.m-auto.w-full.leading-6.text-sm.p-6.bg-white.dark\:text-gray-400 {
+  display: none !important;
+}
+
+.wl-power {
+  display: none !important;
+}
