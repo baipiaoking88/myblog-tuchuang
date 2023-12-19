@@ -10,3 +10,8 @@
 .wl-power {
   display: none !important;
 }
+
+/* 隐藏上下一篇文章 */
+.text-gray-800.border-t.dark\:text-gray-300.flex.flex-wrap.lg\:flex-nowrap.lg\:space-x-10.justify-between.py-2 {
+  display: none;
+}
