@@ -42,7 +42,7 @@ body {
     line-height: 1.65em !important;
 }
 
-/* 小卡剧中 */
+/* 小卡居中 */
 .cards { justify-content: center;} 
 
 /*有点累状态进度条颜色 */
