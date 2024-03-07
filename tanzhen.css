@@ -4,7 +4,6 @@
     width: 88% !important;
 }
 }
-
 @media only screen and (max-width: 767px) {
     .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
         margin-top: 0.5em !important;
@@ -32,16 +31,17 @@ body {
     background-image: url(https://jsd.onmicrosoft.cn/gh/e5baohao/mypic/miku-tanzhen.webp) !important;
     font-family: Arial,Helvetica,sans-serif !important;
 }
+
 /* 进度条 */
 .ui.progress {
     border-radius: 0.5rem !important;
 }
-
 .ui.progress .bar {
     min-width: 1.8em !important;
     border-radius: 0.5rem !important;
     line-height: 1.65em !important;
 }
+
 /* 小卡剧中 */
 .cards { justify-content: center;} 
 
@@ -59,6 +59,7 @@ body {
 .ui.progress.offline .bar {
     background-color: #000 !important;
 }
+
 /* 导航栏 */
 .ui.large.menu {
     border: 0 !important;
@@ -92,7 +93,6 @@ body {
 
 /* 小卡片 */
 .ui.four.cards>.card {
-
     background-color: #fafafaa3 !important;
     border-radius: 1rem !important;
 }
@@ -222,17 +222,16 @@ i.arrow.alternate.circle.up.outline.icon {
     background-color: #fafafaeb !important;
     font-family: Arial,Helvetica,sans-serif !important;
 }
-
 .ui.content {
     margin: 0 !important;
     padding: 1em !important;
 }
+
 /* 服务页 */
 .ui.table {
     background: RGB(225,225,225,0.7) !important;
     border-radius: 1rem !important;
 }
-
 .ui.table thead th {
     background: transparent !important;
 }
