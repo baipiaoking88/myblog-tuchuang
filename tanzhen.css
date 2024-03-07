@@ -29,7 +29,7 @@ body {
     background-position: top !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-image: url(https://fastly.jsdelivr.net/gh/baipiaoking88/picx-images-hosting@master/789257.79c92wk24io0.webp) !important;
+    background-image: url(https://jsd.onmicrosoft.cn/gh/e5baohao/mypic/miku-tanzhen.webp) !important;
     font-family: Arial,Helvetica,sans-serif !important;
 }
 /* 进度条 */
@@ -42,29 +42,22 @@ body {
     border-radius: 0.5rem !important;
     line-height: 1.65em !important;
 }
+/* 小卡剧中 */
+.cards { justify-content: center;} 
 
-.ui.fine.progress> .bar {
-    
-}
-
-.ui.progress> .bar {
-   
-}
-
-.ui.progress.fine .bar {
-    
-}
-
+/*有点累状态进度条颜色 */
 .ui.progress.warning .bar {
-    
+    background-color: #ff7700 !important;
 }
 
+/*高负载状态进度条颜色 */
 .ui.progress.error .bar {
-    
+    background-color: #e41e10 !important;
 }
 
+/* 离线状态进度条颜色 */
 .ui.progress.offline .bar {
-    
+    background-color: #000 !important;
 }
 /* 导航栏 */
 .ui.large.menu {
@@ -110,28 +103,10 @@ body {
 
 }
 
-.status.cards .three.wide.column {
-
-}
-
-.status.cards .wide.column:nth-child(1) {
-
-}
-
-.status.cards .wide.column:nth-child(2) {
-
-}
-
-.status.cards .description {
-
-}
-
 /* 小鸡名 */
 .status.cards .flag {
     margin-right: 0.5rem !important;
 }
-
-
 
 /* 上传下载 */
 .status.cards .outline.icon {
@@ -145,6 +120,7 @@ i.arrow.alternate.circle.down.outline.icon {
 i.arrow.alternate.circle.up.outline.icon {
     color: red !important;
 }
+
 /* 弹出卡片小箭头 */
 .ui.right.center.popup {
     margin: -3px 0 0 0.914286em !important;
@@ -259,19 +235,6 @@ i.arrow.alternate.circle.up.outline.icon {
 
 .ui.table thead th {
     background: transparent !important;
-}
-
-/* 服务页进度条 */
-.service-status .good {
-    
-}
-
-.service-status .danger {
-    
-}
-
-.service-status .warning {
-    
 }
 
 /* 版权 */
